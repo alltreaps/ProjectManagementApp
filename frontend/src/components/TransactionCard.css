@@ -1,0 +1,159 @@
+/* Import Tajawal font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+.transaction-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-card:hover {
+  transform: translateY(-1px);
+}
+
+.transaction-amount-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-amount {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-weight: 600;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-amount.income {
+  color: #4caf50;
+}
+
+.transaction-amount.expense {
+  color: #f44336;
+}
+
+.amount-sign {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.amount-value {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.currency {
+  font-size: 12px;
+  color: inherit;
+}
+
+.transaction-type {
+  font-size: 11px;
+  color: #666;
+  background: #f5f5f5;
+  padding: 2px 8px;
+  border-radius: 8px;
+  white-space: nowrap;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  justify-content: flex-start;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-details {
+  text-align: right;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  font-size: 16px;
+  color: #666;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-indicator {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-indicator.income {
+  background: #4caf50;
+}
+
+.transaction-indicator.expense {
+  background: #f44336;
+}
+
+.transaction-details h4 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.transaction-date {
+  font-size: 12px;
+  color: #666;
+  font-family: 'Tajawal', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .transaction-card {
+    padding: 12px;
+  }
+  
+  .transaction-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+  
+  .transaction-details h4 {
+    font-size: 13px;
+  }
+  
+  .transaction-amount {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,342 @@
+.project-card {
+  background: #F9FAFB;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+  direction: rtl;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 12px;
+  width: 100%;
+  gap: 14px;
+}
+
+.project-price-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: auto;
+  min-width: 74px;
+}
+
+.total-price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111827;
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+.paid-amount {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #16A34A;
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+.remaining-amount {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #DC2626;
+  text-align: right;
+}
+
+.project-main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
+  max-width: 165px;
+}
+
+.project-title-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.project-title {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+  text-align: right;
+  margin: 0;
+  flex: 1;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  gap: 4px;
+}
+
+.client-info, .project-type, .project-dates {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4B5563;
+  text-align: right;
+}
+
+.project-badges {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 12px;
+  width: 100%;
+  gap: 8px;
+}
+
+.status-badge, .payment-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.project-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 0px 12px;
+  width: 100%;
+}
+
+.progress-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.progress-percentage, .progress-label {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4B5563;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 8px;
+  background: #E5E7EB;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2563EB;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.project-sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+  width: 100%;
+  gap: 10px;
+}
+
+.sections-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.sections-label {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4B5563;
+}
+
+.section-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.section-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  background: #DBEAFE;
+  border-radius: 4px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #2563EB;
+}
+
+.project-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  height: 24px;
+  border-radius: 8px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.view-btn {
+  background: #FFF9EB;
+  color: #FBBF24;
+}
+
+.view-btn:hover {
+  background: #FEF3C7;
+}
+
+.collect-btn {
+  background: #DCFCE7;
+  color: #16A34A;
+}
+
+.collect-btn:hover {
+  background: #BBF7D0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 12px;
+    width: 100%;
+  }
+
+  .project-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .project-price-info {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .total-price, .paid-amount, .remaining-amount {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .project-main-info {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 13px;
+  }
+
+  .client-info, .project-type, .project-dates {
+    font-size: 11px;
+  }
+
+  .project-badges {
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .status-badge, .payment-badge {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+
+  .progress-info {
+    margin-bottom: 6px;
+  }
+
+  .progress-percentage, .progress-label {
+    font-size: 11px;
+  }
+
+  .project-sections {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sections-info {
+    justify-content: flex-end;
+  }
+
+  .section-tags {
+    flex-wrap: wrap;
+  }
+
+  .section-tag {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .project-actions {
+    justify-content: flex-end;
+  }
+
+  .action-btn {
+    font-size: 10px;
+    padding: 3px 8px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,150 @@
+/* Import Tajawal font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+.financial-card {
+  flex-direction: column;
+  padding: 24px;
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(100.89deg, #111827 1.46%, #3E578D 94.44%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  font-family: 'Tajawal', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.financial-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px 16px;
+  width: 276px;
+  height: 44px;
+  direction: rtl;
+}
+
+.financial-header h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  width: 192px;
+  height: 28px;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.period {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  height: 28px;
+}
+
+.financial-stats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-end;
+  padding: 0px;
+  gap: 16px;
+  width: 276px;
+  height: 52px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 130px;
+  height: 52px;
+}
+
+.stat-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 102px;
+  height: 32px;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.stat-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 20px;
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .financial-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 160px;
+  }
+  .financial-header {
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px;
+  }
+  .financial-header h3 {
+    font-size: 16px;
+    height: auto;
+    width: auto;
+  }
+  .financial-stats {
+    width: 100%;
+    gap: 12px;
+    height: auto;
+  }
+  .stat-item {
+    width: 48%;
+    height: auto;
+  }
+  .stat-amount {
+    font-size: 20px;
+    height: auto;
+    width: auto;
+  }
+  .stat-label {
+    font-size: 13px;
+    height: auto;
+    width: auto;
+  }
+}
