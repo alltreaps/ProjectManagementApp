@@ -13,7 +13,7 @@ const FiltersSection = () => {
   const projectTypeOptions = ['الكل', 'جديدة', 'قديمة'];
 
   return (
-    <div className="filters-section">
+    <div className="filters-section" dir="rtl">
       <div className="filters-header">
         <h2>الفلاتر</h2>
       </div>

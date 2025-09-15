@@ -117,40 +117,46 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .project-statistics {
-    padding: 16px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .statistics-header {
+    padding: 0 0 8px 0;
     width: 100%;
   }
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+    width: 100%;
   }
 
   .stat-card {
     height: 60px;
     padding: 8px;
-  }
-
-  .stat-value {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .stat-label {
-    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .financial-overview {
-    padding: 12px;
+    padding: 8px;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
   }
 
   .financial-stat {
-    width: auto;
+    width: 100%;
     flex: 1;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .financial-value {

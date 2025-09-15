@@ -90,24 +90,27 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .projects-page {
-    padding: 16px;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
   }
-
-  .page-header {
-    padding: 16px;
-    margin-bottom: 20px;
+  .projects-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
-
-  .page-header h1 {
-    font-size: 24px;
+  .projects-sidebar {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
   }
-
-  .page-header p {
-    font-size: 14px;
-  }
-
   .projects-list {
+    width: 100%;
+    max-width: 100%;
     gap: 12px;
+    padding: 0;
+    margin: 0;
   }
 }
 

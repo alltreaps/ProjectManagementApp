@@ -249,7 +249,11 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .dashboard {
-    padding: 16px;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
   }
 
   .dashboard-header {

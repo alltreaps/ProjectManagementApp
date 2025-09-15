@@ -53,11 +53,7 @@ const ProjectsPage = () => {
   ];
 
   return (
-    <div className="projects-page">
-      <div className="page-header">
-        <h1>المشاريع</h1>
-        <p>إدارة المشاريع والمهام</p>
-      </div>
+    <div className="projects-page" dir="rtl">
       
       <div className="projects-content">
         <div className="projects-sidebar">

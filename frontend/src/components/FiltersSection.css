@@ -133,37 +133,75 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .filters-section {
-    padding: 16px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .filters-header {
+    padding: 0 0 8px 0;
+    width: 100%;
+  }
+
+  .filters-content {
+    gap: 8px;
+    width: 100%;
+  }
+
+  .filter-group {
     width: 100%;
   }
 
   .filter-buttons {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
     width: 100%;
-  }
-
-  .filter-button {
-    font-size: 12px;
-    padding: 8px;
-    height: 32px;
-    box-sizing: border-box;
   }
 
   .date-filter-group {
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
     width: 100%;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    flex-direction: unset;
+    overflow: visible;
+    align-items: center;
+  }
+
+  .date-input-group {
+    min-width: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   .date-input {
-    height: 36px;
-    font-size: 12px;
-    padding: 8px 10px;
+    width: 100%;
+    min-width: 0;
     box-sizing: border-box;
+    height: 32px;
+    font-size: 12px;
+    padding: 4px 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+  }
+
+  .date-input::-webkit-input-placeholder {
+    color: #9CA3AF;
+    opacity: 1;
+  }
+
+  .date-input::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+    opacity: 0.7;
   }
 
   .filter-label {
-    font-size: 13px;
+    font-size: 12px;
+    margin-bottom: 4px;
   }
 }

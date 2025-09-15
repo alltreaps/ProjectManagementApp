@@ -40,19 +40,18 @@
 
 .button-icon-container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 41.75px 12px;
-  width: 131.5px;
-  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: auto;
+  height: auto;
 }
 
 .button-icon {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
   width: 48px;
   height: 48px;
   background: rgba(255, 255, 255, 0.2);
@@ -71,10 +70,12 @@
   line-height: 21px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   color: #FFFFFF;
-  width: 131.5px;
-  height: 21px;
+  width: auto;
+  height: auto;
+  margin-top: 8px;
 }
 
 /* Mobile Responsive */
@@ -90,9 +91,9 @@
   }
 
   .button-icon-container {
-    padding: 0px 0px 8px;
-    width: 100%;
-    height: 50px;
+    padding: 0;
+    width: auto;
+    height: auto;
     justify-content: center;
     align-items: center;
   }
@@ -108,9 +109,10 @@
   }
 
   .button-text {
-    width: 100%;
+    width: auto;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
+    margin-top: 6px;
   }
 }
