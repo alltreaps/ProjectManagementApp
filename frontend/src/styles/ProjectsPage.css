@@ -36,10 +36,9 @@
 }
 
 .projects-content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: start;
+  display: block;
   width: 100%;
+  /* Removed flex to allow sidebar/cards to fill width */
 }
 
 .projects-sidebar {
@@ -47,7 +46,6 @@
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  max-width: calc(100% - 40px);
 }
 
 .projects-header {
@@ -78,6 +76,10 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.projects-list > * {
+  width: 100%;
 }
 
 /* Tablet Responsive */
